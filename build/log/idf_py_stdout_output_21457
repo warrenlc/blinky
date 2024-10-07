@@ -1,0 +1,395 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /Users/warren/Development/Embedded/ESP/Projects/blinky/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "blinky" version: 1
+-- Adding linker script /Users/warren/Development/Embedded/ESP/Projects/blinky/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/warren/Development/Embedded/ESP/Projects/blinky/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /Users/warren/Development/Embedded/ESP/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread rt sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /Users/warren/Development/Embedded/ESP/esp-idf/components/app_trace /Users/warren/Development/Embedded/ESP/esp-idf/components/app_update /Users/warren/Development/Embedded/ESP/esp-idf/components/bootloader /Users/warren/Development/Embedded/ESP/esp-idf/components/bootloader_support /Users/warren/Development/Embedded/ESP/esp-idf/components/bt /Users/warren/Development/Embedded/ESP/esp-idf/components/cmock /Users/warren/Development/Embedded/ESP/esp-idf/components/console /Users/warren/Development/Embedded/ESP/esp-idf/components/cxx /Users/warren/Development/Embedded/ESP/esp-idf/components/driver /Users/warren/Development/Embedded/ESP/esp-idf/components/efuse /Users/warren/Development/Embedded/ESP/esp-idf/components/esp-tls /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_adc /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_app_format /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_bootloader_format /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_coex /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_common /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_ana_cmpr /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_cam /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_dac /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_gpio /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_gptimer /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_i2c /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_i2s /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_isp /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_jpeg /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_ledc /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_mcpwm /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_parlio /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_pcnt /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_ppa /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_rmt /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_sdio /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_sdm /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_sdmmc /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_sdspi /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_spi /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_touch_sens /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_tsens /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_uart /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_driver_usb_serial_jtag /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_eth /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_event /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_gdbstub /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_hid /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_client /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_server /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_https_ota /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_https_server /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_hw_support /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_lcd /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_local_ctrl /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_mm /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif_stack /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_partition /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_phy /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_pm /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_psram /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_ringbuf /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_security /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_system /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_timer /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_vfs_console /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_wifi /Users/warren/Development/Embedded/ESP/esp-idf/components/espcoredump /Users/warren/Development/Embedded/ESP/esp-idf/components/esptool_py /Users/warren/Development/Embedded/ESP/esp-idf/components/fatfs /Users/warren/Development/Embedded/ESP/esp-idf/components/freertos /Users/warren/Development/Embedded/ESP/esp-idf/components/hal /Users/warren/Development/Embedded/ESP/esp-idf/components/heap /Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser /Users/warren/Development/Embedded/ESP/esp-idf/components/idf_test /Users/warren/Development/Embedded/ESP/esp-idf/components/ieee802154 /Users/warren/Development/Embedded/ESP/esp-idf/components/json /Users/warren/Development/Embedded/ESP/esp-idf/components/log /Users/warren/Development/Embedded/ESP/esp-idf/components/lwip /Users/warren/Development/Embedded/ESP/Projects/blinky/main /Users/warren/Development/Embedded/ESP/esp-idf/components/mbedtls /Users/warren/Development/Embedded/ESP/esp-idf/components/mqtt /Users/warren/Development/Embedded/ESP/esp-idf/components/newlib /Users/warren/Development/Embedded/ESP/esp-idf/components/nvs_flash /Users/warren/Development/Embedded/ESP/esp-idf/components/nvs_sec_provider /Users/warren/Development/Embedded/ESP/esp-idf/components/openthread /Users/warren/Development/Embedded/ESP/esp-idf/components/partition_table /Users/warren/Development/Embedded/ESP/esp-idf/components/perfmon /Users/warren/Development/Embedded/ESP/esp-idf/components/protobuf-c /Users/warren/Development/Embedded/ESP/esp-idf/components/protocomm /Users/warren/Development/Embedded/ESP/esp-idf/components/pthread /Users/warren/Development/Embedded/ESP/esp-idf/components/rt /Users/warren/Development/Embedded/ESP/esp-idf/components/sdmmc /Users/warren/Development/Embedded/ESP/esp-idf/components/soc /Users/warren/Development/Embedded/ESP/esp-idf/components/spi_flash /Users/warren/Development/Embedded/ESP/esp-idf/components/spiffs /Users/warren/Development/Embedded/ESP/esp-idf/components/tcp_transport /Users/warren/Development/Embedded/ESP/esp-idf/components/ulp /Users/warren/Development/Embedded/ESP/esp-idf/components/unity /Users/warren/Development/Embedded/ESP/esp-idf/components/usb /Users/warren/Development/Embedded/ESP/esp-idf/components/vfs /Users/warren/Development/Embedded/ESP/esp-idf/components/wear_levelling /Users/warren/Development/Embedded/ESP/esp-idf/components/wifi_provisioning /Users/warren/Development/Embedded/ESP/esp-idf/components/wpa_supplicant /Users/warren/Development/Embedded/ESP/esp-idf/components/xtensa
+-- Configuring done (4.3s)
+-- Generating done (0.6s)
+-- Build files have been written to: /Users/warren/Development/Embedded/ESP/Projects/blinky/build
+[1/983] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_ws.c.obj
+[2/983] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/util/ctrl_sock.c.obj
+[3/983] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_auth.c.obj
+[4/983] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_uri.c.obj
+[5/983] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_sess.c.obj
+[6/983] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_main.c.obj
+[7/983] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_utils.c.obj
+[8/983] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/lib/http_header.c.obj
+[9/983] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_txrx.c.obj
+[10/983] Building C object esp-idf/esp_https_ota/CMakeFiles/__idf_esp_https_ota.dir/src/esp_https_ota.c.obj
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_https_ota/src/esp_https_ota.c: In function 'esp_https_ota_finish':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_https_ota/src/esp_https_ota.c:662:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  662 |             err = esp_ota_end(handle->update_handle);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_https_ota/src/esp_https_ota.c:664:9: note: here
+  664 |         case ESP_HTTPS_OTA_BEGIN:
+      |         ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_https_ota/src/esp_https_ota.c: In function 'esp_https_ota_abort':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_https_ota/src/esp_https_ota.c:708:19: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  708 |             err = esp_ota_abort(handle->update_handle);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_https_ota/src/esp_https_ota.c:710:9: note: here
+  710 |         case ESP_HTTPS_OTA_BEGIN:
+      |         ^~~~
+[11/983] Building C object esp-idf/esp_http_server/CMakeFiles/__idf_esp_http_server.dir/src/httpd_parse.c.obj
+[12/983] Linking C static library esp-idf/esp_https_ota/libesp_https_ota.a
+[13/983] Linking C static library esp-idf/esp_http_server/libesp_http_server.a
+[14/983] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub_transport.c.obj
+[15/983] Building ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub-entry.S.obj
+[16/983] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/packet.c.obj
+[17/983] Building ASM object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/xt_debugexception.S.obj
+[18/983] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_socks_proxy.c.obj
+[19/983] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/gdbstub.c.obj
+[20/983] Building C object esp-idf/esp_gdbstub/CMakeFiles/__idf_esp_gdbstub.dir/src/port/xtensa/gdbstub_xtensa.c.obj
+[21/983] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_internal.c.obj
+[22/983] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport.c.obj
+[23/983] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali.c.obj
+[24/983] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_cali_curve_fitting.c.obj
+[25/983] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp_adc_cal_common_legacy.c.obj
+[26/983] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ssl.c.obj
+[27/983] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_common.c.obj
+[28/983] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_oneshot.c.obj
+[29/983] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_dma.c.obj
+[30/983] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/esp32/adc_cali_line_fitting.c.obj
+[31/983] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/deprecated/esp32/esp_adc_cal_legacy.c.obj
+[32/983] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp-tls-crypto/esp_tls_crypto.c.obj
+[33/983] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_platform_port.c.obj
+[34/983] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/lib_printf.c.obj
+[35/983] Building C object esp-idf/esp_http_client/CMakeFiles/__idf_esp_http_client.dir/esp_http_client.c.obj
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_client/esp_http_client.c: In function 'esp_http_client_perform':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_client/esp_http_client.c:1287:20: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1287 |                 if ((err = esp_http_client_connect(client)) != ESP_OK) {
+      |                    ^
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_client/esp_http_client.c:1296:13: note: here
+ 1296 |             case HTTP_STATE_CONNECTED:
+      |             ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_client/esp_http_client.c:1297:20: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1297 |                 if ((err = esp_http_client_request_send(client, client->post_len)) != ESP_OK) {
+      |                    ^
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_client/esp_http_client.c:1306:13: note: here
+ 1306 |             case HTTP_STATE_REQ_COMPLETE_HEADER:
+      |             ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_client/esp_http_client.c:1307:20: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1307 |                 if ((err = esp_http_client_send_post_data(client)) != ESP_OK) {
+      |                    ^
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_client/esp_http_client.c:1316:13: note: here
+ 1316 |             case HTTP_STATE_REQ_COMPLETE_DATA:
+      |             ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_client/esp_http_client.c:1321:20: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1321 |                 if (ret < 0) {
+      |                    ^
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_http_client/esp_http_client.c:1340:13: note: here
+ 1340 |             case HTTP_STATE_RES_ON_DATA_START:
+      |             ^~~~
+[36/983] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_error_capture.c.obj
+[37/983] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/mesh_event.c.obj
+[38/983] Linking C static library esp-idf/esp_http_client/libesp_http_client.a
+[39/983] Building C object esp-idf/esp_adc/CMakeFiles/__idf_esp_adc.dir/adc_continuous.c.obj
+[40/983] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig.c.obj
+[41/983] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default_ap.c.obj
+[42/983] Building C object esp-idf/tcp_transport/CMakeFiles/__idf_tcp_transport.dir/transport_ws.c.obj
+[43/983] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_init.c.obj
+[44/983] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj
+[45/983] Linking C static library esp-idf/tcp_transport/libtcp_transport.a
+[46/983] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_netif.c.obj
+[47/983] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/wifi_default.c.obj
+[48/983] Linking C static library esp-idf/esp_gdbstub/libesp_gdbstub.a
+[49/983] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug.c.obj
+[50/983] Building C object esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/esp32/esp_coex_adapter.c.obj
+[51/983] Linking C static library esp-idf/esp_adc/libesp_adc.a
+[52/983] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls.c.obj
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp-tls/esp_tls.c: In function 'esp_tls_low_level_conn':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp-tls/esp_tls.c:471:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  471 |         tls->conn_state = ESP_TLS_CONNECTING;
+      |         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp-tls/esp_tls.c:473:5: note: here
+  473 |     case ESP_TLS_CONNECTING:
+      |     ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp-tls/esp_tls.c:509:25: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  509 |         tls->conn_state = ESP_TLS_HANDSHAKE;
+      |         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp-tls/esp_tls.c:511:5: note: here
+  511 |     case ESP_TLS_HANDSHAKE:
+      |     ^~~~
+[53/983] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/src/smartconfig_ack.c.obj
+[54/983] Building C object esp-idf/esp_wifi/CMakeFiles/__idf_esp_wifi.dir/esp32/esp_adapter.c.obj
+[55/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj
+[56/983] Building C object esp-idf/esp-tls/CMakeFiles/__idf_esp-tls.dir/esp_tls_mbedtls.c.obj
+[57/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.obj
+[58/983] Linking C static library esp-idf/esp-tls/libesp-tls.a
+[59/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj
+[60/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.obj
+[61/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/pmksa_cache_auth.c.obj
+[62/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
+[63/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.obj
+[64/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_11.c.obj
+[65/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/comeback_token.c.obj
+[66/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.c.obj
+[67/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.obj
+[68/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.obj
+[69/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf.c.obj
+[70/983] Building C object esp-idf/http_parser/CMakeFiles/__idf_http_parser.dir/http_parser.c.obj
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c: In function 'http_parser_execute':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:1841:31: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1841 |               parser->upgrade = 1;
+      |               ~~~~~~~~~~~~~~~~^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:1843:13: note: here
+ 1843 |             case 1:
+      |             ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:1465:12: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 1465 |         if (ch == LF) {
+      |            ^
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:1472:7: note: here
+ 1472 |       case s_header_value_start:
+      |       ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c: In function 'parse_url_char':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:544:10: warning: this statement may fall through [-Wimplicit-fallthrough=]
+  544 |       if (ch == '@') {
+      |          ^
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:549:5: note: here
+  549 |     case s_req_server_start:
+      |     ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c: In function 'http_parser_parse_url':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:2400:18: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 2400 |         found_at = 1;
+      |         ~~~~~~~~~^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:2403:7: note: here
+ 2403 |       case s_req_server:
+      |       ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c: In function 'http_parse_host_char':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:2223:134: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 2223 |       if (IS_HOST_CHAR(ch)) {
+      |           ~~~~~~~~~~~~~~~~~~~                                                                                                        ^              
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:2228:5: note: here
+ 2228 |     case s_http_host_v6_end:
+      |     ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:2236:10: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 2236 |       if (ch == ']') {
+      |          ^
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:2241:5: note: here
+ 2241 |     case s_http_host_v6_start:
+      |     ^~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:2252:10: warning: this statement may fall through [-Wimplicit-fallthrough=]
+ 2252 |       if (ch == ']') {
+      |          ^
+/Users/warren/Development/Embedded/ESP/esp-idf/components/http_parser/http_parser.c:2257:5: note: here
+ 2257 |     case s_http_host_v6_zone_start:
+      |     ^~~~
+[71/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops.c.obj
+[72/983] Linking C static library esp-idf/http_parser/libhttp_parser.a
+[73/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common.c.obj
+[74/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.obj
+[75/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj
+[76/983] Linking C static library esp-idf/esp_wifi/libesp_wifi.a
+[77/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.c.obj
+[78/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.c.obj
+[79/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlsprf.c.obj
+[80/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c.obj
+[81/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tlsprf.c.obj
+[82/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
+[83/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c.obj
+[84/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf.c.obj
+[85/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tlsprf.c.obj
+[86/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf.c.obj
+[87/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.c.obj
+[88/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-internal.c.obj
+[89/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.obj
+[90/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_wsc_common.c.obj
+[91/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11_common.c.obj
+[92/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_common.c.obj
+[93/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap_common.c.obj
+[94/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj
+[95/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj
+[96/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2.c.obj
+[97/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.c.obj
+[98/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.obj
+[99/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_common.c.obj
+[100/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap.c.obj
+[101/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_common.c.obj
+[102/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_cache.c.obj
+[103/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/base64.c.obj
+[104/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c.obj
+[105/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls.c.obj
+[106/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_password.c.obj
+[107/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj
+[108/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_pac.c.obj
+[109/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.obj
+[110/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.obj
+[111/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c.obj
+[112/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj
+[113/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_parse.c.obj
+[114/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj
+[115/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_process.c.obj
+[116/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast.c.obj
+[117/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_build.c.obj
+[118/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2_api_port.c.obj
+[119/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.obj
+[120/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.c.obj
+[121/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.obj
+[122/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpas_glue.c.obj
+[123/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae_pk.c.obj
+[124/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_common.c.obj
+[125/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.c.obj
+[126/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa_main.c.obj
+[127/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_owe.c.obj
+[128/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa3.c.obj
+[129/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/fastpbkdf2.c.obj
+[130/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_hostap.c.obj
+[131/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_eap_client.c.obj
+[132/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/rc4.c.obj
+[133/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c.obj
+[134/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls.c.obj
+[135/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c.obj
+[136/983] Linking C static library esp-idf/esp_coex/libesp_coex.a
+[137/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-wrap.c.obj
+[138/983] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
+[139/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-unwrap.c.obj
+[140/983] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_defaults.c.obj
+[141/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/des-internal.c.obj
+[142/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wps.c.obj
+[143/983] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
+[144/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/tls_mbedtls.c.obj
+[145/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-ccm.c.obj
+[146/983] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/esp_pbuf_ref.c.obj
+[147/983] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip_defaults.c.obj
+[148/983] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.obj
+[149/983] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/wlanif.c.obj
+[150/983] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/netif/ethernetif.c.obj
+[151/983] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-ec.c.obj
+[152/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/sntp/sntp.c.obj
+[153/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/err.c.obj
+[154/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/if_api.c.obj
+[155/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netifapi.c.obj
+[156/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netbuf.c.obj
+[157/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/api_lib.c.obj
+[158/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/netdb.c.obj
+[159/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/def.c.obj
+[160/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/netbiosns/netbiosns.c.obj
+[161/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/tcpip.c.obj
+[162/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/apps/sntp/sntp.c.obj
+[163/983] Linking C static library esp-idf/wpa_supplicant/libwpa_supplicant.a
+[164/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/inet_chksum.c.obj
+[165/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/api_msg.c.obj
+[166/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/mem.c.obj
+[167/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/ip.c.obj
+[168/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/init.c.obj
+[169/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/memp.c.obj
+[170/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/dns.c.obj
+[171/983] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
+FAILED: esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj 
+/Users/warren/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20240906/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DESP_NETIF_COMPONENT_BUILD -DESP_PLATFORM -DIDF_VER=\"v5.4-dev-3201-g46acfdce96\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/Users/warren/Development/Embedded/ESP/Projects/blinky/build/config -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/private_include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip -I/Users/warren/Development/Embedded/ESP/esp-idf/components/newlib/platform_include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/freertos/config/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/freertos/config/include/freertos -I/Users/warren/Development/Embedded/ESP/esp-idf/components/freertos/config/xtensa/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/Users/warren/Development/Embedded/ESP/esp-idf/components/freertos/esp_additions/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_hw_support/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_hw_support/include/soc -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_hw_support/include/soc/esp32 -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_hw_support/dma/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_hw_support/ldo/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_hw_support/debug_probe/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_hw_support/port/esp32/. -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_hw_support/port/esp32/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/heap/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/heap/tlsf -I/Users/warren/Development/Embedded/ESP/esp-idf/components/log/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/soc/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/soc/esp32 -I/Users/warren/Development/Embedded/ESP/esp-idf/components/soc/esp32/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/soc/esp32/register -I/Users/warren/Development/Embedded/ESP/esp-idf/components/hal/platform_port/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/hal/esp32/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/hal/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom/esp32/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom/esp32/include/esp32 -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_rom/esp32 -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_common/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_system/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_system/port/soc -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_system/port/include/private -I/Users/warren/Development/Embedded/ESP/esp-idf/components/xtensa/esp32/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/xtensa/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/xtensa/deprecated_include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/include/apps -I/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/include/apps/sntp -I/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/port/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/port/freertos/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/port/esp32xx/include -I/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/port/esp32xx/include/arch -I/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/port/esp32xx/include/sys -I/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_event/include -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -save-temps -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=/Users/warren/Development/Embedded/ESP/Projects/blinky=. -fmacro-prefix-map=/Users/warren/Development/Embedded/ESP/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj -MF esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj.d -o esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj -c /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c: In function 'esp_netif_internal_dhcpc_cb':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1373:75: error: the comparison will always evaluate as 'false' for the address of 'ip4' will never be NULL [-Werror=address]
+ 1373 |             ip4_addr_set(&ip_info->ip, ip_2_ip4(&netif->ip_addr));
+      |                                                                           ^ 
+In file included from /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:9:
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:72:16: note: 'ip4' declared here
+   72 |     ip4_addr_t ip4;
+      |                ^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1374:80: error: the comparison will always evaluate as 'false' for the address of 'ip4' will never be NULL [-Werror=address]
+ 1374 |             ip4_addr_set(&ip_info->netmask, ip_2_ip4(&netif->netmask));
+      |                                                                                ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:72:16: note: 'ip4' declared here
+   72 |     ip4_addr_t ip4;
+      |                ^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1375:70: error: the comparison will always evaluate as 'false' for the address of 'ip4' will never be NULL [-Werror=address]
+ 1375 |             ip4_addr_set(&ip_info->gw, ip_2_ip4(&netif->gw));
+      |                                                                      ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:72:16: note: 'ip4' declared here
+   72 |     ip4_addr_t ip4;
+      |                ^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c: In function 'esp_netif_dhcpc_start_api':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1539:322: error: the comparison will always evaluate as 'true' for the address of 'ip_addr' will never be NULL [-Werror=address]
+ 1539 |             ip_addr_set_zero(&p_netif->ip_addr);
+      |                                                                                                                                                                                                                                                                                                                                  ^ 
+In file included from /Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/sockets.h:51,
+                 from /Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/include/lwip/sockets.h:8,
+                 from /Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:10:
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/netif.h:277:13: note: 'ip_addr' declared here
+  277 |   ip_addr_t ip_addr;
+      |             ^~~~~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1540:322: error: the comparison will always evaluate as 'true' for the address of 'netmask' will never be NULL [-Werror=address]
+ 1540 |             ip_addr_set_zero(&p_netif->netmask);
+      |                                                                                                                                                                                                                                                                                                                                  ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/netif.h:278:13: note: 'netmask' declared here
+  278 |   ip_addr_t netmask;
+      |             ^~~~~~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1541:292: error: the comparison will always evaluate as 'true' for the address of 'gw' will never be NULL [-Werror=address]
+ 1541 |             ip_addr_set_zero(&p_netif->gw);
+      |                                                                                                                                                                                                                                                                                                    ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/netif.h:279:13: note: 'gw' declared here
+  279 |   ip_addr_t gw;
+      |             ^~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c: In function 'esp_netif_get_ip_info':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1843:73: error: the comparison will always evaluate as 'false' for the address of 'ip4' will never be NULL [-Werror=address]
+ 1843 |         ip4_addr_set(&ip_info->ip, ip_2_ip4(&p_netif->ip_addr));
+      |                                                                         ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:72:16: note: 'ip4' declared here
+   72 |     ip4_addr_t ip4;
+      |                ^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1844:78: error: the comparison will always evaluate as 'false' for the address of 'ip4' will never be NULL [-Werror=address]
+ 1844 |         ip4_addr_set(&ip_info->netmask, ip_2_ip4(&p_netif->netmask));
+      |                                                                              ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:72:16: note: 'ip4' declared here
+   72 |     ip4_addr_t ip4;
+      |                ^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1845:68: error: the comparison will always evaluate as 'false' for the address of 'ip4' will never be NULL [-Werror=address]
+ 1845 |         ip4_addr_set(&ip_info->gw, ip_2_ip4(&p_netif->gw));
+      |                                                                    ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:72:16: note: 'ip4' declared here
+   72 |     ip4_addr_t ip4;
+      |                ^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c: In function 'esp_netif_internal_nd6_cb':
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:2162:84: error: the comparison will always evaluate as 'false' for the address of 'ip6' will never be NULL [-Werror=address]
+ 2162 |     ip6_addr_set(&lwip_ip6_info, ip_2_ip6(&netif->ip6_addr[ip_index]));
+      |                                                                                    ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:71:16: note: 'ip6' declared here
+   71 |     ip6_addr_t ip6;
+      |                ^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:2162:144: error: the comparison will always evaluate as 'false' for the address of 'ip6' will never be NULL [-Werror=address]
+ 2162 |     ip6_addr_set(&lwip_ip6_info, ip_2_ip6(&netif->ip6_addr[ip_index]));
+      |                                                                                                                                                ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:71:16: note: 'ip6' declared here
+   71 |     ip6_addr_t ip6;
+      |                ^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:2162:144: error: the comparison will always evaluate as 'false' for the address of 'ip6' will never be NULL [-Werror=address]
+ 2162 |     ip6_addr_set(&lwip_ip6_info, ip_2_ip6(&netif->ip6_addr[ip_index]));
+      |                                                                                                                                                ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:71:16: note: 'ip6' declared here
+   71 |     ip6_addr_t ip6;
+      |                ^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:2162:144: error: the comparison will always evaluate as 'false' for the address of 'ip6' will never be NULL [-Werror=address]
+ 2162 |     ip6_addr_set(&lwip_ip6_info, ip_2_ip6(&netif->ip6_addr[ip_index]));
+      |                                                                                                                                                ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:71:16: note: 'ip6' declared here
+   71 |     ip6_addr_t ip6;
+      |                ^~~
+/Users/warren/Development/Embedded/ESP/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:2162:145: error: the comparison will always evaluate as 'false' for the address of 'ip6' will never be NULL [-Werror=address]
+ 2162 |     ip6_addr_set(&lwip_ip6_info, ip_2_ip6(&netif->ip6_addr[ip_index]));
+      |                                                                                                                                                 ^ 
+/Users/warren/Development/Embedded/ESP/esp-idf/components/lwip/lwip/src/include/lwip/ip_addr.h:71:16: note: 'ip6' declared here
+   71 |     ip6_addr_t ip6;
+      |                ^~~
+cc1: some warnings being treated as errors
+[172/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/stats.c.obj
+[173/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/sys.c.obj
+[174/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/pbuf.c.obj
+[175/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/raw.c.obj
+[176/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/netif.c.obj
+[177/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp.c.obj
+[178/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp_out.c.obj
+[179/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/api/sockets.c.obj
+[180/983] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/lwip/src/core/tcp_in.c.obj
+ninja: build stopped: subcommand failed.
